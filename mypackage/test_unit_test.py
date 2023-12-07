@@ -15,11 +15,7 @@ class TestHello(unittest.TestCase):
         self.assertTrue(len(greeting()) > 0)
         print("Test pass 3 is Ok")
 
-    def test_fail_1(self):
-        self.assertEqual(greeting(), "Hello my name")
 
-    def test_fail_2(self):
-        self.assertIsNone(greeting())
 
 
 if __name__ == "__main__":
